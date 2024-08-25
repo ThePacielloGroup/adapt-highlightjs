@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "properties": {
+        "config": {
+          "type": "object",
+          "properties": {
+            "_hljs": {
+              "type": "object",
+              "legend": "HighlightJS",
+              "properties": {
+                "_src": {
+                  "type": "string",
+                  "default": "",
+                  "title": "HighlightJS URL",
+                  "inputType": "Text",
+                  "help": "URL where the highlightjs script can be found, such as the CDN links provided on https://highlightjs.org/download/. Leave empty to use bundled version (11.5.1)"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

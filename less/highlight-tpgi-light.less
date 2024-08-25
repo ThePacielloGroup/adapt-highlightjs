@@ -1,0 +1,190 @@
+/* TPGi-light theme */
+/* @author: Hans Hillen, TPGi */
+
+.hljs-comment,
+.hljs-quote {
+  color: #6E6E6E;
+  font-style: italic;
+}
+
+.hljs-tag {
+  color: #4d4d4d;
+}
+
+.hljs-regexp {
+  color: #CA0D07;
+}
+
+.hljs-selector-class {
+  color: #AF4646;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-name,
+.hljs-selector-id,
+.hljs-deletion {
+  color: #C03A35;
+}
+
+.hljs-built_in {
+  color: #170495;
+}
+
+
+.hljs-number {
+  color: #226DB0;
+}
+
+.hljs-link {
+  color: #1B6698;
+}
+
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-selector-attr {
+  color: #9E5600;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #2C52A6;
+}
+
+.hljs-selector-pseudo {
+  color: #5E6921;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #008000;
+}
+
+
+.hljs-title,
+.hljs-section {
+  color: #133450;
+}
+
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-code {
+  color: #5F2B5C;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+    color: highlight;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag {
+    font-weight: bold;
+  }
+}
+
+
+/* Code snippet language labels */
+
+pre code[class^=language-]::before {
+  display: inline-block;
+  position: absolute;
+  top: -.9em;
+  border: 1px solid #919191;
+  padding: 0 4px;
+  color: #7C505B;
+  background: #fff;
+  line-height: 1.5;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+pre code.language-css::before {
+  content: "CSS";
+}
+
+pre code.language-xml::before {
+  content: "XML";
+}
+
+pre code.language-html::before {
+  content: "HTML";
+}
+
+pre code.language-java::before {
+  content: "Java";
+}
+
+pre code.language-js,
+pre code.language-javascript {
+  &::before {
+    content: "JavaScript";
+  }
+}
+
+pre code.language-json::before {
+  content: "JSON";
+}
+
+pre code.language-markdown::before {
+  content: "Markdown";
+}
+
+pre code.language-objective-c::before {
+  content: "Objective-C";
+}
+
+pre code.language-php::before {
+  content: "PHP";
+}
+
+pre code.language-sh::before {
+  content: "Shell";
+}
+
+pre code.language-swift::before {
+  content: "Swift";
+}
+
+pre code.language-typeScript::before {
+  content: "TypeScript";
+}
+
+pre code.language-yaml::before {
+  content: "YAML";
+}
